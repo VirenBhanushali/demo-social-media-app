@@ -1,0 +1,17 @@
+.HomeContainer {
+  position: relative;
+  top: 5rem;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profileContainer {
+  width: 28%;
+}
+.postContainer {
+  width: 68%;
+}
