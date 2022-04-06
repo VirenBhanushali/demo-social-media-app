@@ -1,0 +1,40 @@
+.createPostContainer {
+  position: relative;
+  top: 4rem;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: white;
+  height: auto;
+}
+.createPostContainer div {
+  color: rgb(0, 138, 131);
+  margin-bottom: 2rem;
+}
+.createPostContainer div label {
+  color: rgb(0, 138, 131);
+  margin-right: 0.5rem;
+}
+.previewImg {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.createPostContainer div button {
+  padding: 10px;
+  border: 1px solid rgb(0, 138, 131);
+  background-color: rgb(0, 138, 131);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.createPostContainer div input {
+  padding: 5px;
+  border: 0.5px solid rgb(0, 138, 131);
+}

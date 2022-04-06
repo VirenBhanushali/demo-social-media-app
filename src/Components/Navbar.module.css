@@ -1,0 +1,52 @@
+.navbar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(233, 233, 233);
+  height: 4rem;
+  position: fixed;
+  z-index: 2;
+  color: rgb(0, 138, 131);
+}
+.logo {
+  width: 33.33%;
+  padding: 10px;
+}
+.navProfileOptions {
+  width: 20.33%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navProfileOptions div {
+  cursor: pointer;
+}
+.searchBar input {
+  padding: 8px;
+  width: 60%;
+  background-color: transparent;
+  border: 0.5px solid rgb(0, 138, 131);
+}
+.searchBar button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 138, 131);
+}
+.searchBar {
+  width: 55%;
+  display: flex;
+  align-items: center;
+}
+.navProfileOptions div span {
+  position: absolute;
+  top: 3px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  padding: 2px;
+}

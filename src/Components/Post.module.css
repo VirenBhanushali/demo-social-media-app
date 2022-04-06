@@ -1,8 +1,9 @@
 .post {
   height: auto;
   background-color: white;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   margin-bottom: 2rem;
+  border-radius: 8px;
 }
 .postHeader {
   padding-left: 10px;
@@ -62,18 +63,21 @@
   width: 100%;
   object-fit: cover;
   font-size: 25px;
+  cursor: pointer;
 }
 .commentInteraction {
   height: 100%;
   width: 100%;
   object-fit: cover;
   font-size: 25px;
+  cursor: pointer;
 }
 .shareInteraction {
   height: 100%;
   width: 100%;
   object-fit: cover;
   font-size: 25px;
+  cursor: pointer;
 }
 .postInteractionsInfo {
   display: flex;
